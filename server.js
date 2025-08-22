@@ -36,7 +36,7 @@ const upload = multer({
 });
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: 'https://myeio.in' }));
 app.use(bodyParser.json());
 app.use(express.static('uploads'));
 
